@@ -1,12 +1,15 @@
-var btnn = document.getElementById("btn");
-
-	function btnClicked(){
-		console.log("done");
-		var a = document.getElementsByClassName("test");
-		var b = document.getElementById("price");
-		b.innerHTML= "hello, " + a[0].value;
-		console.log(a);
+var ProductImg = document.getElementById("ProductImg");
+	var ViewImg = document.getElementsByClassName("viewImg");
+	
+	ViewImg[0].onclick = function () {
+		ProductImg.src = ViewImg[0].src;
 	}
-
-
-	btnn.addEventListener("click", btnClicked);
+	ViewImg[1].onclick = function () {
+		ProductImg.src = ViewImg[1].src;
+	}
+	ViewImg[2].onclick = function () {
+		ProductImg.src = ViewImg[2].src;
+	}
+	ViewImg[3].onclick = function () {
+		ProductImg.src = ViewImg[3].src;
+	}
