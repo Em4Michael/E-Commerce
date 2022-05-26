@@ -329,7 +329,9 @@ ul {
   font-size: 2rem;
   letter-spacing: .1rem;
 }
-
+.view{
+  width: 600px;
+}
 .card {
   border: 0.1rem #c0c0c0 solid;
   border-radius: 0.5rem;
@@ -631,6 +633,19 @@ h3 .heading {
 
 
 @media (max-width: 767px) {
+    .view{
+      width: 350px;
+    }
+    .text-main h1{
+      font-size: medium;
+    }
+  
+  .text-main{
+    align-items: center;
+    justify-content: center;
+    margin-left: -2rem;
+  }
+  
   .carousel-caption h1 {
     font-size: 2.3rem;
     letter-spacing: .15rem;
