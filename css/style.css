@@ -632,7 +632,7 @@ h3 .heading {
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 700px) {
     .view{
       width: 350px;
     }
